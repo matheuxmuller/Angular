@@ -17,3 +17,15 @@ Repositório criado para as aulas sobre o framework Angular (TypeScript) para de
 - <b>npm install jquery@latest --save</b>
 - <b>npm install popper.js --save</b>
 - <b>ng add @fortawesome/angular-fontawesome</b>
+
+## Configurações no angular.json
+
+            "styles": [
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "./node_modules/popper.js/dist/umd/popper.min.js"
+            ]
