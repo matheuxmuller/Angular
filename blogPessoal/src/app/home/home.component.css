@@ -1,5 +1,5 @@
 .parallax {
-    background-image: url('https://imgur.com/7F9Vndy.jpg');
+    background-image: url('https://i.imgur.com/8QbT0bw.jpg');
   
     min-height: 500px;
   
@@ -7,4 +7,46 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    right: 15%;
+    text-transform: none;
+    font-size: 30px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background:#F2C6B6;
+  }
+  
+  .wrapper:hover .overlay {
+    opacity: 50%;
+  }
+
+  .bege {
+    background-color: #F2C6B6;
   }
