@@ -24,8 +24,8 @@
   .content {
     position: absolute;
     top: 45%;
-    left: 20%;
-    right: 15%;
+    left: 0%;
+    right: 0%;
     text-transform: none;
     font-size: 30px;
   }
@@ -50,3 +50,13 @@
   .bege {
     background-color: #F2C6B6;
   }
+
+#subir{
+	position:fixed;
+  right: 10px;
+  bottom: 50px;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  scroll-behavior: smooth;
+  transition: .4s;
+}
